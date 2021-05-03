@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
+import { createRouter, createWebBash, RouteRecordRaw } from 'vue-router'
 import Home from '../views/Home.vue'
 import AES_Encrypt from '../views/AES-Encrypt.vue'
 import AES_Decrypt from '../views/AES-Decrypt.vue'
@@ -46,7 +46,7 @@ const routes: Array<RouteRecordRaw> = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHash(process.env.BASE_URL),
   routes
 })
 
